@@ -1,0 +1,94 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 8%;
+    background: linear-gradient(120deg, #0b0b3c, #14002c);
+    color: white;
+    flex-wrap: wrap;
+}
+
+.home-left {
+    max-width: 500px;
+}
+
+.welcome {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.home-left h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.home-left span {
+    color: #ff2c74;
+}
+
+.home-left h2 {
+    font-size: 40px;
+    color: #ff2c74;
+}
+
+.home-left h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.portfolio-btn {
+    background: #ff2c74;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-btn {
+    border: 2px solid #ff2c74;
+    background: transparent;
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.home-right img {
+    width: 350px;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background: linear-gradient(45deg, #ff2c74, #3a86ff);
+    padding: 5px;
+}
+
+/* Responsive */
+
+@media(max-width:900px) {
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-right img {
+        margin-top: 40px;
+        width: 260px;
+    }
+
+    .home-left h1 {
+        font-size: 38px;
+    }
+
+    .home-left h2 {
+        font-size: 30px;
+    }
+
+}
