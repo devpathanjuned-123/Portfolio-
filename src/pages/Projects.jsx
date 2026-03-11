@@ -3,12 +3,17 @@ import React from "react";
 const Projects = () => {
   return (
 
-    <div>
-      <h1>My Projects</h1>
 
-      <p>Here are some of my projects</p>
 
-    </div>
+
+    <section className="project">
+      <h2>My Projects</h2>
+      <div className="project-card">
+        <h3>My Portfolio Website</h3>
+        <p>My Portfolio Website build with react</p>
+        <button>GitHub</button>
+      </div>
+    </section>
 
   );
 };
