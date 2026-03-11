@@ -2,8 +2,8 @@
 
 .footer {
     width: 100%;
-    background: white;
-    color: #020b18;
+    background: rgb(33, 7, 166);
+    color: white;
     padding: 50px 20px 25px;
     box-sizing: border-box;
 }
@@ -32,7 +32,7 @@
 
 .footer-text {
     font-size: 15px;
-    color: #020810;
+    color: white;
 }
 
 /* Navigation Links */
@@ -46,14 +46,14 @@
 
 .link a {
     text-decoration: none;
-    color: #020810;
+    color: white;
     font-size: 15px;
     font-weight: 500;
     transition: 0.3s;
 }
 
 .link a:hover {
-    color: #38bdf8;
+    color: #e81212;
 }
 
 /* Social Links */
@@ -65,7 +65,7 @@
 
 .footer-social a {
     text-decoration: none;
-    color: #020810;
+    color: white;
     border: 1px solid #334155;
     padding: 8px 18px;
     border-radius: 6px;
@@ -74,8 +74,8 @@
 }
 
 .footer-social a:hover {
-    border-color: #38bdf8;
-    color: #38bdf8;
+    border-color: #f70e0e;
+    color: #840505;
 }
 
 /* Copyright */
